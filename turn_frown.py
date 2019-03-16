@@ -4,7 +4,6 @@ import cv2
 from keras.models import load_model
 import numpy as np
 from PIL import Image
-import matplotlib.pyplot as plt
 
 emotion_model_path = '_mini_XCEPTION.hdf5'
 emoji = cv2.imread('./happy.png', -1)
