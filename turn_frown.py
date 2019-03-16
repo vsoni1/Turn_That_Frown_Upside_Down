@@ -30,7 +30,6 @@ while True:
         roi = img_to_array(roi)
         roi = np.expand_dims(roi, axis=0)
         preds = emotion_classifier.predict(roi)[0]
-        emotion_probability = np.max(preds)
         label = emotions[preds.argmax()]
         if label not in ["happy", "surprised", "neutral"]:
             emoji = cv2.resize(emoji, (H,W))
