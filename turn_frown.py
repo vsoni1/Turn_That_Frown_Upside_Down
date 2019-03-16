@@ -1,9 +1,7 @@
-from keras.preprocessing.image import img_to_array
-import imutils
+import numpy as np
 import cv2
 from keras.models import load_model
-import numpy as np
-from PIL import Image
+from keras.preprocessing.image import img_to_array
 
 emotion_model_path = '_mini_XCEPTION.hdf5'
 emoji = cv2.imread('./happy.png', -1)
