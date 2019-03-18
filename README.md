@@ -5,3 +5,7 @@ Recently, deep neural networks have achieved unprecedented performance across nu
 Here, I present a novel paradigm for ultra-fast frown reversal:
 
 <img src="turn frown upside down.gif" width="200"/> 
+
+Works better for more human looking faces:
+
+<img src="arjun_frown2.gif" width="200"/> 
